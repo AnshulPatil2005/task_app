@@ -7,6 +7,7 @@
 - Helmet, CORS, rate limiting, validation, and centralized error handling.
 - Structured logging (Winston) and request logging (Morgan).
 - Swagger UI and Postman collection.
+- File-based log output for combined and error logs in `logs/`.
 
 ## Getting Started
 1. Copy environment variables: `cp .env.example .env`
@@ -51,3 +52,4 @@ src/
 ## Tooling
 - Swagger UI: `/api/v1/docs`
 - Postman: `postman_collection.json`
+- Logs: `logs/combined.log` (all levels), `logs/error.log` (errors only)
